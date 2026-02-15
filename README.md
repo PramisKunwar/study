@@ -1,0 +1,1 @@
+Hey its a chrome extension which is responsible for helping students createe notes while watching youtube videos. This extension helps student to learn effectively and more productively. Students remember more when they create short notes. It is more easier to make notes while watching youtube video using this extension.

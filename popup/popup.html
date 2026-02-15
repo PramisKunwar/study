@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=400, height=600">
+  <title>Study Notes</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>📝 Study Notes</h1>
+      <p class="subtitle" id="videoTitle">Open a YouTube video to start!</p>
+    </header>
+
+    <!-- Note Input Section -->
+    <section class="note-input-section">
+      <div class="timestamp-display" id="timestampDisplay">
+        <span class="timestamp-icon">⏱</span>
+        <span id="currentTime">00:00</span>
+      </div>
+      
+      <textarea 
+        id="noteInput" 
+        placeholder="Write your note here... ✏️"
+        rows="4"
+      ></textarea>
+      
+      <div class="controls">
+        <button id="codeToggle" class="toggle-btn">
+          <span class="toggle-icon">&lt;/&gt;</span>
+          Code Mode
+        </button>
+        <button id="addNoteBtn" class="primary-btn">
+          Add Note ✨
+        </button>
+      </div>
+    </section>
+
+    <!-- Notes List -->
+    <section class="notes-section">
+      <h2 class="section-title">Your Notes 🌸</h2>
+      <div id="notesList" class="notes-list">
+        <p class="empty-state">No notes yet! Start taking notes while watching 📚</p>
+      </div>
+    </section>
+
+    <!-- Footer Actions -->
+    <footer class="footer">
+      <button id="exportBtn" class="export-btn">
+        Export Notes 📄
+      </button>
+      <button id="clearBtn" class="clear-btn">
+        Clear All 🗑️
+      </button>
+    </footer>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

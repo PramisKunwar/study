@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YouTube Coding Notes Companion",
   "version": "1.0.0",
-  "description": "A cute, cozy notes companion for YouTube coding tutorials 🌸",
+  "description": "A simple, effective & cozy notes companion for YouTube coding tutorials 🌸",
   "permissions": [
     "storage",
     "activeTab",
